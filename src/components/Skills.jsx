@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section className="bg-[#0f172a] text-white py-16 px-6">
       {/* Title */}
-      <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10">
+      <h2 className="text-2xl gap sm:text-3xl font-bold text-center mb-10">
         Skills & Technologies
       </h2>
 
