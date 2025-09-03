@@ -1,10 +1,11 @@
 import React from 'react'
+import passport from "../assets/passport.jpg"
 
 const Hero = () => {
   return (
     <section className="bg-[#111827] font-space text-white h-full items-center justify-center flex flex-col p-4">
       <img
-        src="/src/assets/passport.jpg"
+        src={passport}
         alt="Logo"
         className="w-32 h-32 rounded-full border-4 border-gray-600 shadow-lg"
       />
