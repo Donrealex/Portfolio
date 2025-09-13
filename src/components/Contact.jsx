@@ -32,7 +32,7 @@ const Contact = () => {
             <span>Get in Touch</span>
           </a>
           <a
-            href="https://docs.google.com/document/d/1YaeBsYPoxE9j5ANtIAB499i7GI1jDuWd/edit?usp=sharing&ouid=101024541495556124159&rtpof=true&sd=true"
+            href="https://drive.google.com/file/d/1gH03WCGuvbk5WpN-ilVKrn-mWhIUOmWg/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 px-6 py-3 rounded-md border border-gray-500 text-gray-200 font-semibold hover:bg-gray-800 hover:border-gray-400 transition-colors duration-300"
