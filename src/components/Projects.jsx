@@ -1,8 +1,4 @@
-import React from 'react'
-import { ProjectsData } from '../constant/data';
-import { NavLink } from 'react-router-dom';
-
-const Projects = () => {
+import React from 'react {
 
   return (
     <section className="bg-[#0f172a] text-white py-16 px-6 font-space">
