@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Projects = () => {
 
   return (
-    <section className="bg-[#0f172a] text-white py-16 px-6 font-space">
+    <section className="bg-[#0f172a] text-white p-6 font-space">
       {/* Title */}
       <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10">
         Featured Projects

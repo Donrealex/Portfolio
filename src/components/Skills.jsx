@@ -4,11 +4,15 @@ import { SkillsData } from '../constant/data';
 const Skills = () => {
     
   return (
-    <section className="bg-[#0f172a] text-white py-16 px-6">
+    <section className="bg-[#0f172a] text-white p-6 font-space">
       {/* Title */}
-      <h2 className="text-2xl gap sm:text-3xl font-bold text-center mb-10">
+      <h2 className="text-2xl gap sm:text-3xl font-bold text-center mb-3">
         Skills & Technologies
       </h2>
+      <p className="m:text-1xl text-center text-gray-400 leading-relaxed mb-3">
+        I am always looking to add more skills, but these are the few skills I
+        am able to apply.
+      </p>
 
       {/* Skills Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">

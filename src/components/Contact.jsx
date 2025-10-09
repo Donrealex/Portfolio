@@ -9,22 +9,21 @@ import { NavLink } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <section className="bg-gray-900 text-white font-space">
-      <div className="max-w-2xl mx-auto text-center py-20 px-4 flex flex-col items-center space-y-8">
+    <section className="bg-gray-900 text-white font-space p-6">
+      <div className="max-w-2xl mx-auto text-center flex flex-col items-center space-y-8">
         <h2 className="text-4xl font-bold tracking-tight">Contact</h2>
 
         <p className="text-lg text-gray-300">
           Interested in working together? <br /> Let's have a conversation.
         </p>
-
-        <div className="flex items-center gap-2 text-gray-400">
+        {/* <div className="flex items-center gap-2 text-gray-400">
           <HiOutlineLocationMarker className="w-5 h-5" />
           <span>Ibadan, OYO STATE</span>
-        </div>
+        </div> */}
 
         {/* --- Buttons --- */}
         <div className="flex flex-col sm:flex-row gap-4 mt-2">
-            <a
+          <a
             href="mailto:adebiyiridwan91@gmail.com?subject=Let's%20Work%20Together&body=Hi%20Ridwan,%0D%0AI'd%20like%20to%20discuss%20a%20project%20with%20you."
             className="flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors duration-300 shadow-lg"
           >
@@ -65,7 +64,11 @@ const Contact = () => {
               <FaXTwitter className="text-2xl" />
             </NavLink>
           </div>
-          <p className="text-sm  mt-4">
+          <div className="flex items-center gap-2 text-gray-400">
+            <HiOutlineLocationMarker className="w-5 h-5" />
+            <span>Ibadan, OYO STATE</span>
+          </div>
+          <p className="text-sm  mt4">
             Copyright © {new Date().getFullYear()} Portfolio.
             <br /> All Rights Reserved
           </p>
