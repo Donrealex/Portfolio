@@ -3,7 +3,8 @@ import passport from "../assets/passport.jpg"
 
 const Hero = () => {
   return (
-    <section className="bg-[#111827] font-space text-white h-full items-center justify-center flex flex-col p-4 pt-20">
+    <section id="home"
+     className="bg-[#111827] font-space text-white h-full items-center justify-center flex flex-col p-4 pt-20">
       <img
         src={passport}
         alt="Logo"
