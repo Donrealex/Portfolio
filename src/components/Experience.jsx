@@ -11,11 +11,7 @@ const Experience = () => {
       <p className="text-center text-slate-300 max-w-2xl mx-auto text-sm sm:text-base">
         A snapshot of my recent roles and what I worked on.
       </p>
-
-      {/* Timeline */}
-      {/* <ol className="relative mt-10 border-l border-slate-700 pl-6 space-y-10"> */}
-        {/* Item 1 */}
-        {/* <li className=""> */}
+      {/* Experience List */}
           <div className="flex flex-wrap items-center justify-between gap-2">
             <h3 className="text-lg sm:text-xl font-semibold">
               Freelance Developer
@@ -26,10 +22,8 @@ const Experience = () => {
             Worked on diverse projects from Upwork, Fiverr, and other
             freelancing networks.
           </p>
-        {/* </li> */}
 
         {/* Item 2 */}
-        {/* <li className=""> */}
           <div className="flex flex-wrap items-center justify-between gap-2">
             <h3 className="text-lg sm:text-xl font-semibold">
               Front‑End Intern <br />
@@ -55,8 +49,6 @@ const Experience = () => {
             pages. Participated in code reviews and learned industry best
             practices for clean coding.
           </p>
-        {/* </li> */}
-      {/* </ol> */}
     </section>
   );
 }
