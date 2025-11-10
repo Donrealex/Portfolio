@@ -30,7 +30,7 @@ export const ProjectsData = [
     description:
       "A passionate Frontend Web Developer specializing in React, Tailwind CSS, and JavaScript, dedicated to crafting clean, responsive, and user-friendly web interfaces. This portfolio showcases my ability to transform ideas into functional, visually appealing digital experiences with a focus on performance, accessibility, and seamless user interaction.Each project reflects a strong attention to detail, modern design principles, and the efficient use of cutting-edge technologies to deliver engaging solutions. Driven by curiosity and creativity, I’m continuously exploring innovative ways to bring interfaces to life and enhance the web experience across all devices.",
     image: portfolio,
-    link: "https://portfolio-dun-three-85.vercel.app/",
+    link: "https://adebiyi-ridwan.vercel.app",
     codeBase: "https://github.com/Donrealex/Portfolio",
   },
   {
@@ -40,5 +40,5 @@ export const ProjectsData = [
     image: jiji,
     link: "https://jiji-clone-4ebi.vercel.app/",
     codeBase: "https://github.com/Donrealex/Jiji-Clone",
-  }
+  },
 ];
