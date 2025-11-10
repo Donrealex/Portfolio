@@ -38,7 +38,7 @@ export const ProjectsData = [
     description:
       "We collaborated on developing A clone of the popular Jiji commercial website. This clone serves as a practical demonstration of my skills as a front-end web developer, showcasing my ability to create complex web applications that are both functional and visually appealing.",
     image: jiji,
-    link: "https://jiji-clone-4ebi.vercel.app/",
+    link: "https://jiji-clone-4ebi.vercel.app",
     codeBase: "https://github.com/Donrealex/Jiji-Clone",
   },
 ];
