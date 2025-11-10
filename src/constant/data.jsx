@@ -1,11 +1,12 @@
 import techty from "../assets/techty.png";
 import portfolio from "../assets/portfolio.PNG";
+import jiji from "../assets/jiji.png";
 
 export const SkillsData = [
   "JavaScript",
+  "TailwindCSS",
   "React",
   "Node.js",
-  "TailwindCSS",
   "Git",
 ];
 
@@ -32,4 +33,12 @@ export const ProjectsData = [
     link: "https://portfolio-dun-three-85.vercel.app/",
     codeBase: "https://github.com/Donrealex/Portfolio",
   },
+  {
+    title: "Jiji Commercial Website Clone",
+    description:
+      "We collaborated on developing A clone of the popular Jiji commercial website. This clone serves as a practical demonstration of my skills as a front-end web developer, showcasing my ability to create complex web applications that are both functional and visually appealing.",
+    image: jiji,
+    link: "https://jiji-clone-4ebi.vercel.app/",
+    codeBase: "https://github.com/Donrealex/Jiji-Clone",
+  }
 ];
