@@ -1,6 +1,7 @@
 import techty from "../assets/techty.png";
 import portfolio from "../assets/portfolio.PNG";
 import jiji from "../assets/jiji.PNG";
+import qz from "../assets/qz.PNG";
 
 export const SkillsData = [
   "JavaScript",
@@ -36,9 +37,17 @@ export const ProjectsData = [
   {
     title: "Jiji Commercial Website Clone",
     description:
-      "We collaborated on developing A clone of the popular Jiji commercial website. This clone serves as a practical demonstration of my skills as a front-end web developer, showcasing my ability to create complex web applications that are both functional and visually appealing.",
+      "I collaborated with Adejare Waliyullahi on developing a clone of the popular Jiji commercial website. This project showcases our front-end web development skills, demonstrating our ability to create complex, functional, and visually appealing web applications. Moreover, it highlights my capacity to effectively collaborate with others, delivering high-quality results in a team setting.",
     image: jiji,
     link: "https://jiji-clone-4ebi.vercel.app",
     codeBase: "https://github.com/Donrealex/Jiji-Clone",
+  },
+  {
+    title: "QZ Platform ",
+    description:
+      "We collaborated on developing the QZ Platform, which simplifies exam creation, management, and student assessment with a user-friendly interface, customizable tests, performance analytics, and instant automated grading, saving time and enhancing efficiency. This project showcases my ability to effectively collaborate with others to deliver innovative solutions.",
+    image: qz,
+    link: "https://qzplatform.vercel.app/",
+    codeBase: "https://github.com/ATBTECHhub/QZ",
   },
 ];

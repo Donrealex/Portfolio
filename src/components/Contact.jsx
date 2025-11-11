@@ -94,7 +94,7 @@ const Contact = () => {
                 <span>Get in Touch</span>
               </a>
               <a
-                href="https://drive.google.com/file/d/1gH03WCGuvbk5WpN-ilVKrn-mWhIUOmWg/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1BEONA5RLJLB9ZEVuURyTw1NHmsgFO9Tk/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-6 py-3 rounded-md border border-gray-500 text-gray-200 font-semibold hover:bg-gray-800 hover:border-gray-400 transition-colors duration-300"
