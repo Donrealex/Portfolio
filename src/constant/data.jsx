@@ -1,6 +1,6 @@
 import techty from "../assets/techty.png";
 import portfolio from "../assets/portfolio.PNG";
-import jiji from "../assets/jiji.png";
+import jiji from "../assets/jiji.PNG";
 
 export const SkillsData = [
   "JavaScript",
