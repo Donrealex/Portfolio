@@ -1,8 +1,7 @@
-import React from 'react'
-import { SkillsData } from '../constant/data';
+import React from "react";
+import { SkillsData } from "../constant/data";
 
 const Skills = () => {
-    
   return (
     <section className="bg-[#0f172a] text-white p-6 font-space">
       {/* Title */}
@@ -19,7 +18,7 @@ const Skills = () => {
         {SkillsData.map((skill, index) => (
           <div
             key={index}
-            className="bg-[#1e293b] rounded-lg shadow-lg py-6 px-4 flex items-center justify-center text-center text-lg font-medium hover:border-t-2 hover:text-black scale-100 hover:scale-110 transition-transform duration-500"
+            className="bg-[#1e293b] rounded-lg shadow-lg py-6 px-4 flex items-center justify-center text-center text-lg hover:text-xl font-medium hover:font-extrabold hover:border-t-2 hover:text-black scale-100 hover:scale-110 transition-transform duration-500"
           >
             {skill}
           </div>
@@ -27,6 +26,6 @@ const Skills = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Skills
+export default Skills;

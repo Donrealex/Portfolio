@@ -9,6 +9,7 @@ export const SkillsData = [
   "React",
   "Node.js",
   "Git",
+  "npm"
 ];
 
 export const navItems = [
